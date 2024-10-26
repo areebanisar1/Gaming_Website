@@ -1,0 +1,76 @@
+/* Mainheader.css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Semi-transparent background for the header */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure it is above other content */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Optional shadow for better visibility */
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav ul li {
+  margin: 0 10px;
+}
+
+.nav-button {
+  background: none;
+  color: #fff;
+  border: 1px solid transparent;
+  font-size: 16px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: border 0.3s, color 0.3s;
+}
+
+.nav-button:hover {
+  border: 1px solid #4caf50;
+  color: #4caf50;
+}
+
+.auth-buttons a {
+  margin: 0 10px;
+}
+
+.login,
+.signup {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login:hover,
+.signup:hover {
+  background-color: #45a049;
+}

@@ -1,0 +1,81 @@
+/* TeamList.css */
+.team-list-container {
+  font-family: Arial, sans-serif;
+  color: #fff;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+    url("https://wallpapercave.com/wp/wp11148267.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 15px;
+  border-radius: 12px;
+  max-width: 90%;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  max-width: 1200px;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.team-card {
+  background: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  width: 280px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.team-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6);
+}
+
+.member-name {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #4caf50; /* Highlight name with color */
+}
+
+.member-email {
+  font-size: 16px;
+  margin: 5px 0;
+  color: #ddd; /* Lighter color for email */
+}
+
+.member-role {
+  font-size: 16px;
+  margin: 5px 0;
+  color: #ccc; /* Light color for role */
+}
+
+.error-message {
+  color: #ff0000; /* Red color for errors */
+  font-size: 18px;
+  text-align: center;
+  margin-top: 20px;
+}

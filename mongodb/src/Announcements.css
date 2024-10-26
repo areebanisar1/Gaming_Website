@@ -1,0 +1,70 @@
+.announcement-form {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #ffffff; /* White background for better contrast */
+}
+
+.announcement-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333; /* Dark color for better visibility */
+}
+
+.announcement-form input,
+.announcement-form textarea {
+  width: 100%;
+  padding: 12px; /* Increased padding */
+  margin-bottom: 10px;
+  border: 1px solid #ddd; /* Light border for contrast */
+  border-radius: 5px;
+  color: #000; /* Dark text color for readability */
+  background-color: #f8f8f8; /* Slightly darker background for contrast */
+}
+
+.announcement-form button {
+  padding: 12px 20px; /* Increased padding */
+  background-color: #28a745; /* Green button */
+  color: #ffffff; /* White text */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px; /* Larger font size for readability */
+}
+
+.announcement-form button:hover {
+  background-color: #218838; /* Darker green for hover */
+}
+
+.announcements-container {
+  margin: 20px;
+}
+
+.announcement-item {
+  padding: 20px; /* Increased padding for better content spacing */
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 5px;
+  background-color: #ffffff; /* White background */
+  margin-bottom: 15px;
+}
+
+.announcement-item h3 {
+  margin-top: 0;
+  color: #0056b3; /* Darker blue for title */
+  font-size: 20px; /* Larger font size for titles */
+  font-weight: bold;
+}
+
+.announcement-item p {
+  margin: 10px 0;
+  color: #333; /* Dark text for content */
+  font-size: 16px; /* Increased font size */
+  line-height: 1.6; /* Increased line height for readability */
+}
+
+.announcement-item small {
+  color: #6c757d; /* Lighter gray for date/time */
+  font-size: 14px; /* Slightly larger font size for small text */
+}

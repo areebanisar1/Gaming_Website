@@ -1,0 +1,127 @@
+.events-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #ffffff;
+  background-color: #1a1a1a;
+  border-radius: 8px;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: #ffffff;
+}
+
+.events-options {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.events-options button {
+  background-color: #4caf50;
+  color: #ffffff;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.events-options button:hover {
+  background-color: #388e3c;
+}
+
+.event-form {
+  background-color: #333333;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.event-form .form-group {
+  margin-bottom: 15px;
+}
+
+.event-form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #ffffff;
+}
+
+.event-form input,
+.event-form textarea {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #cccccc;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.event-form button {
+  background-color: #4caf50;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.event-form button:hover {
+  background-color: #388e3c;
+}
+
+.events-list {
+  margin-top: 20px;
+}
+
+.event-card {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.pending-requests {
+  background-color: #212121;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  color: #ff9800;
+}
+
+.pending-requests ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.pending-requests li {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.pending-requests p {
+  margin: 5px 0;
+}
+
+.pending-requests button {
+  background-color: #ff5722;
+  color: #ffffff;
+  padding: 8px 16px;
+  margin-right: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.pending-requests button:hover {
+  background-color: #e64a19;
+}
